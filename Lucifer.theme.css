@@ -1,26 +1,41 @@
 /**
- * @name Lucifer
- * @version 1.0.0.4
- * @description Lucifer theme created by Kira Kohler
- * @author kira_kohler
- * @invite k1r4fn-863529838388445194
- * @website https:www.servidoreskirafn.com
+ * @nombre Lucifer
+ * @versión 1.0.0.4
+ * @descripción Tema Lucifer creado por Kira Kohler
+ * @autor kira_kohler
+ * @invitación k1r4fn-863529838388445194
+ * @sitioWeb https:www.servidoreskirafn.com
 */
 
 @import url('https://akame-kohler.github.io/discordthemes/kira.css');
-
-
 @import url("https://fonts.googleapis.com/css2?family=Supernatural+Knight:wght@100;300;400;500;700&display=swap");
 @import url("https://akame-kohler.github.io/discordthemes/radialglow.css");
 @import url("https://akame-kohler.github.io/discordthemes/verticalusers.css"); 
 @import url("https://akame-kohler.github.io/discordthemes/tittlebar.css");
 @import url("https://akame-kohler.github.io/Apple.css");  
+@import url("https://discordstyles.github.io/FrostedGlass/dist/FrostedGlass.css");
+@import url('https://monstrousdev.github.io/themes/addons/user-tags.css');
+
 :root {
-  --background-image: url("https://www.hdwallpapers.in/download/lucifer_season_6_hd_lucifer-HD.jpg"); 
-  --home-button-image: url("https://static.vecteezy.com/system/resources/previews/005/863/301/original/devil-icon-isolated-on-black-background-devil-emoji-hell-symbol-angry-emoji-free-vector.jpg");
-  --background-blur: 1px; 
-  --accent: 161, 0, 0;
-  --link-colour: rgb(161, 0, 0); 
+  --background-image: url('https://www.hdwallpapers.in/download/lucifer_season_6_hd_lucifer-HD.jpg');
+  --background-image-blur: 5px;
+  --background-image-size: cover;
+  --background-image-position: center;
+  --popout-modal-image: var(--background-image);
+  --popout-modal-blur: 5px;
+  --popout-modal-size: cover;
+  --popout-modal-position: center;
+  --home-button-image: url('https://static.vecteezy.com/system/resources/previews/005/863/301/original/devil-icon-isolated-on-black-background-devil-emoji-hell-symbol-angry-emoji-free-vector.jpg');
+  --home-button-size: cover;
+  --home-button-position: center;
+  --serverlist-brightness: 0.8;
+  --left-brightness: 0.8;
+  --middle-brightness: 0.6;
+  --right-brightness: 0;
+  --popout-modal-brightness: 0.75;
+  --gradient-primary: 103,58,183;
+  --gradient-secondary: 63,81,181;
+  --gradient-direction: 320deg;
   --channels-width: 300px; 
   --guilds-width: 105px; 
   --members-width: 280px; 
@@ -28,19 +43,22 @@
   --chat-avatar-size: 32px; 
   --glow-intensity: 1; 
   --opacity: 0.7;
-  --font: "Supernatural Knight"; 
   --avatar-roundness: 50%; 
   --server-roundness: 50%; 
-  /*
-   * RadialStatus
-   */
+  --tint-colour: 255,51,159;
+  --tint-brightness: 0;
+  --window-padding: 7px;
+  --window-roundness: 20px;
+  --scrollbar-colour: rgba(255,255,255,0.05);
+  --link-colour: rgb(161, 0, 0);
+  --font: 'Calligraffitti';
+  --update-notice-1: none;
   --rs-small-spacing: 2px;
   --rs-medium-spacing: 4px; 
   --rs-large-spacing: 4px; 
   --rs-small-width: 1.5px; 
   --rs-medium-width: 2px; 
   --rs-large-width: 2px; 
-  /* Colores */
   --rs-online-color: #43b581; 
   --rs-idle-color: #faa61a; 
   --rs-dnd-color: #f04747; 
