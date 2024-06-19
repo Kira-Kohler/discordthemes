@@ -1,4 +1,4 @@
 {
-  "success": false,
-  "mensaje": "Puedes usar esta script"
+  "success": true,
+  "mensaje": "Tienes suficientes permisos para usar esta script"
 }
