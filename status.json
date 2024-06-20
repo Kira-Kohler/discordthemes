@@ -1,4 +1,4 @@
 {
-  "success": true,
-  "mensaje": "Servidor conectado"
+  "success": false,
+  "mensaje": "Esta versión ya no esta disponible, contacta con Kira para obtener la versión actual."
 }
