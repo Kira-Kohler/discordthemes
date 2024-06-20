@@ -1,4 +1,4 @@
 {
-  "success": false,
-  "mensaje": "Error 503: Servicio No Disponible, el servidor no puede manejar la solicitud en este momento debido a un mantenimiento temporal o una sobrecarga del servidor. Por favor, intenta nuevamente más tarde. Si el problema persiste, contacta al administrador del sistema para obtener más información."
+  "success": true,
+  "mensaje": "Servidor conectado"
 }
